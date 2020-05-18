@@ -31,32 +31,16 @@ namespace MAR
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
+            this.connButton = new System.Windows.Forms.Button();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.connButton = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(76, 6);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(114, 20);
-            this.textBox1.TabIndex = 0;
-            this.textBox1.Text = "localhost";
-            // 
-            // label1
-            // 
-            this.label1.Location = new System.Drawing.Point(12, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(58, 23);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Server";
             // 
             // textBox2
             // 
@@ -91,21 +75,6 @@ namespace MAR
             this.label3.TabIndex = 1;
             this.label3.Text = "Password";
             // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(76, 84);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(114, 20);
-            this.textBox4.TabIndex = 0;
-            // 
-            // label4
-            // 
-            this.label4.Location = new System.Drawing.Point(12, 87);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(58, 23);
-            this.label4.TabIndex = 1;
-            this.label4.Text = "Database";
-            // 
             // connButton
             // 
             this.connButton.Location = new System.Drawing.Point(12, 113);
@@ -115,6 +84,38 @@ namespace MAR
             this.connButton.Text = "Подключение";
             this.connButton.UseVisualStyleBackColor = true;
             this.connButton.Click += new System.EventHandler(this.connButton_Click);
+            // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(76, 84);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(114, 20);
+            this.textBox4.TabIndex = 0;
+            this.textBox4.Text = "youdb";
+            // 
+            // label4
+            // 
+            this.label4.Location = new System.Drawing.Point(12, 87);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(58, 23);
+            this.label4.TabIndex = 1;
+            this.label4.Text = "Database";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(76, 6);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(114, 20);
+            this.textBox1.TabIndex = 0;
+            this.textBox1.Text = "localhost";
+            // 
+            // label1
+            // 
+            this.label1.Location = new System.Drawing.Point(12, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(58, 23);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Server";
             // 
             // ConnectionForm
             // 

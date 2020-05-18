@@ -6,9 +6,14 @@ namespace MAR
 {
     public partial class MainForm : Form
     {
-        public MainForm()
+        private string serv, login, pass, db;
+        public MainForm(string serv1, string login1, string pass1, string db1)
         {
             InitializeComponent();
+            serv = serv1;
+            login = login1;
+            pass = pass1;
+            db = db1;
         }
 
         private void addRights_Click(object sender, EventArgs e)
