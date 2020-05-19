@@ -44,7 +44,8 @@ namespace MAR
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(76, 32);
+            this.textBox2.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.textBox2.Location = new System.Drawing.Point(90, 32);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(114, 20);
             this.textBox2.TabIndex = 0;
@@ -52,7 +53,8 @@ namespace MAR
             // 
             // label2
             // 
-            this.label2.Location = new System.Drawing.Point(12, 35);
+            this.label2.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.label2.Location = new System.Drawing.Point(26, 35);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(58, 23);
             this.label2.TabIndex = 1;
@@ -60,7 +62,8 @@ namespace MAR
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(76, 58);
+            this.textBox3.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.textBox3.Location = new System.Drawing.Point(90, 58);
             this.textBox3.Name = "textBox3";
             this.textBox3.PasswordChar = '*';
             this.textBox3.Size = new System.Drawing.Size(114, 20);
@@ -69,7 +72,8 @@ namespace MAR
             // 
             // label3
             // 
-            this.label3.Location = new System.Drawing.Point(12, 61);
+            this.label3.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.label3.Location = new System.Drawing.Point(26, 61);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(58, 23);
             this.label3.TabIndex = 1;
@@ -77,7 +81,8 @@ namespace MAR
             // 
             // connButton
             // 
-            this.connButton.Location = new System.Drawing.Point(12, 113);
+            this.connButton.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.connButton.Location = new System.Drawing.Point(26, 113);
             this.connButton.Name = "connButton";
             this.connButton.Size = new System.Drawing.Size(178, 23);
             this.connButton.TabIndex = 2;
@@ -87,7 +92,8 @@ namespace MAR
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(76, 84);
+            this.textBox4.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.textBox4.Location = new System.Drawing.Point(90, 84);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(114, 20);
             this.textBox4.TabIndex = 0;
@@ -95,7 +101,8 @@ namespace MAR
             // 
             // label4
             // 
-            this.label4.Location = new System.Drawing.Point(12, 87);
+            this.label4.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.label4.Location = new System.Drawing.Point(26, 87);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(58, 23);
             this.label4.TabIndex = 1;
@@ -103,7 +110,8 @@ namespace MAR
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(76, 6);
+            this.textBox1.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.textBox1.Location = new System.Drawing.Point(90, 6);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(114, 20);
             this.textBox1.TabIndex = 0;
@@ -111,7 +119,8 @@ namespace MAR
             // 
             // label1
             // 
-            this.label1.Location = new System.Drawing.Point(12, 9);
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.label1.Location = new System.Drawing.Point(26, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(58, 23);
             this.label1.TabIndex = 1;
@@ -121,7 +130,7 @@ namespace MAR
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(206, 151);
+            this.ClientSize = new System.Drawing.Size(234, 151);
             this.Controls.Add(this.connButton);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -131,6 +140,8 @@ namespace MAR
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
+            this.MaximumSize = new System.Drawing.Size(250, 190);
+            this.MinimumSize = new System.Drawing.Size(250, 190);
             this.Name = "ConnectionForm";
             this.Text = "ConnectionForm";
             this.ResumeLayout(false);
